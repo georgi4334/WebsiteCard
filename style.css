@@ -1,0 +1,109 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  width: 26vw;
+  border-radius: 10px;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, 30%);
+          transform: translate(-50%, 30%);
+  -webkit-box-shadow: 0px 2px 10px -1px rgba(95, 95, 95, 0.75);
+          box-shadow: 0px 2px 10px -1px rgba(95, 95, 95, 0.75);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#dcd8d8), color-stop(#e4e2e2), color-stop(#edebec), color-stop(#f6f5f6), to(#ffffff));
+  background-image: linear-gradient(to bottom, #dcd8d8, #e4e2e2, #edebec, #f6f5f6, #ffffff);
+}
+
+.wrapper .btn-container {
+  position: absolute;
+  top: 175px;
+  left: 160px;
+}
+
+.wrapper img {
+  width: 90%;
+  border-radius: 10px;
+  margin: auto;
+  position: relative;
+  -webkit-transform: translate3d(0, -20px, 0);
+          transform: translate3d(0, -20px, 0);
+  -webkit-box-shadow: 0px 2px 10px -1px rgba(95, 95, 95, 0.75);
+          box-shadow: 0px 2px 10px -1px rgba(95, 95, 95, 0.75);
+  display: block;
+  z-index: 11;
+}
+
+.wrapper:hover img {
+  -webkit-transform: translate3d(0, -70px, 0);
+          transform: translate3d(0, -70px, 0);
+  -webkit-transition: all 0.3s cubic-bezier(0.34, 1.61, 0.7, 1);
+  transition: all 0.3s cubic-bezier(0.34, 1.61, 0.7, 1);
+}
+
+.wrapper .text-container {
+  text-align: center;
+}
+
+.wrapper .text-container h3 {
+  padding: 5px 0;
+}
+
+.wrapper .text-container p {
+  padding: 0 20px;
+  color: #918b8b;
+}
+
+.wrapper hr {
+  width: 90%;
+}
+
+.wrapper .price-container p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media only screen and (max-width: 1370px) {
+  .wrapper {
+    width: 90%;
+  }
+  .wrapper .btn-container {
+    position: absolute;
+    top: 430px;
+    left: 43%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .wrapper {
+    width: 90%;
+  }
+  .wrapper .btn-container {
+    position: absolute;
+    top: 240px;
+    left: 39%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .wrapper {
+    width: 90%;
+  }
+  .wrapper .btn-container {
+    position: absolute;
+    top: 100px;
+    left: 39%;
+    width: calc(100% - 30px);
+  }
+}
+/*# sourceMappingURL=style.css.map */
