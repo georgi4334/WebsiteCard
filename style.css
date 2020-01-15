@@ -22,9 +22,8 @@ body {
 }
 
 .wrapper .btn-container {
-  position: absolute;
-  top: 175px;
-  left: 160px;
+  position: relative;
+  bottom: 30%;
 }
 
 .wrapper img {
@@ -52,7 +51,7 @@ body {
 }
 
 .wrapper .text-container h3 {
-  padding: 5px 0;
+  font-weight: bold;
 }
 
 .wrapper .text-container p {
@@ -73,37 +72,33 @@ body {
           justify-content: center;
 }
 
-@media only screen and (max-width: 1370px) {
+@media only screen and (max-width: 1200px) {
   .wrapper {
-    width: 90%;
+    width: 60%;
   }
   .wrapper .btn-container {
-    position: absolute;
-    top: 430px;
-    left: 43%;
+    position: relative;
+    bottom: 33%;
   }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 900px) {
   .wrapper {
-    width: 90%;
+    width: 70%;
   }
   .wrapper .btn-container {
-    position: absolute;
-    top: 240px;
-    left: 39%;
+    position: relative;
+    bottom: 33%;
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
   .wrapper {
     width: 90%;
   }
   .wrapper .btn-container {
-    position: absolute;
-    top: 100px;
-    left: 39%;
-    width: calc(100% - 30px);
+    position: relative;
+    bottom: 30%;
   }
 }
 /*# sourceMappingURL=style.css.map */
