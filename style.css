@@ -23,7 +23,7 @@ body {
 
 .wrapper .btn-container {
   position: relative;
-  bottom: 30%;
+  bottom: 35%;
 }
 
 .wrapper img {
@@ -52,6 +52,7 @@ body {
 
 .wrapper .text-container h3 {
   font-weight: bold;
+  margin-top: -33px;
 }
 
 .wrapper .text-container p {
@@ -78,7 +79,7 @@ body {
   }
   .wrapper .btn-container {
     position: relative;
-    bottom: 33%;
+    bottom: 45%;
   }
 }
 
@@ -88,7 +89,7 @@ body {
   }
   .wrapper .btn-container {
     position: relative;
-    bottom: 33%;
+    bottom: 42%;
   }
 }
 
@@ -98,7 +99,7 @@ body {
   }
   .wrapper .btn-container {
     position: relative;
-    bottom: 30%;
+    bottom: 40%;
   }
 }
 /*# sourceMappingURL=style.css.map */
